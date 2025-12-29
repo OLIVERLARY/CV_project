@@ -1,6 +1,6 @@
 # 2DGS论文阅读笔记
 [Problem] 3DGS fails to represent surface due to multi-view inconsistency  
-![](img/image.png)  
+![](./../img/image.png)  
 
 !!! note "以旋转相机与平移相机为例有助于解释这一inconsistency"  
 
@@ -27,7 +27,7 @@ $k$:index of Gaussian primitives,$\alpha_k$:alpha value,$c_k$:view-dependent app
 3. rasterization process lacks multi-view consistency -> varied 2D intersection plane for different viewpoints  
 4. affine matrix only yield accurate projections **near** the center  
 ## 2DGS
-![](img/image-1.png)  
+![](./../img/image-1.png)  
 $$
 \begin{aligned}
 P(u,v)&=p_k+s_ut_uu+s_vt_vv=H(u,v,1,1)^T\\
